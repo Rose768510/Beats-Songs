@@ -65,7 +65,7 @@ nav{
 #title{
     font-weight: bold;
     font-size: 2rem;
-    margin-right: 25rem;
+    margin-right: 20rem;
 }
 
 #home{
@@ -199,4 +199,71 @@ footer a{
 }
 footer p{
     padding-bottom: 0.5rem;
+}
+
+@media(max-width: 780px){
+    #title{
+        font-size: 1rem;
+        margin-right: 1rem;
+        color: rgb(42, 35, 101);
+    }
+
+    #nav-link{
+        font-size: 0.45rem;
+        margin-left: 0.5rem;
+    }
+
+    body #home{
+        display: block;
+    }
+    #home-text{
+        padding-top: 1rem;
+        font-size: 0.5rem;
+        width: 80%;
+    }
+    .colored-slogan{
+        font-size: 1.5rem;
+    }
+    .slogan{
+        font-size: 1rem;;
+    }
+    #explore{
+        margin-top: 1rem;
+    }
+    #circle{
+        width: 15rem;
+        height: 15rem;
+        border-radius: 50%;
+        background-color: black;
+        margin: 1.5rem auto;
+    }
+
+    .musique{
+        height: 5rem;
+    }
+    #services{
+        height: 42rem;
+    }
+    #services .title{
+        font-size: 1rem;
+        margin-top: 2rem;
+    }
+
+    #container{
+        gap: 1rem;
+    }
+
+    .container-element{
+        width: 15rem;
+        height: 10rem;
+    }
+    .container-element img{
+        height: 4rem;
+    }
+    .name{
+        font-size: 0.80rem;
+    }
+    .detail{
+        font-size: 0.6rem;
+    }
 }

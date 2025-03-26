@@ -111,3 +111,26 @@ footer a{
 footer p{
     padding-bottom: 0.5rem;
 }
+
+@media(max-width: 780px){
+    #title{
+        font-size: 1rem;
+        margin-right: 1rem;
+        color: rgb(42, 35, 101);
+    }
+
+    #nav-link{
+        font-size: 0.45rem;
+        margin-left: 0.5rem;
+    }
+    h1{
+        font-size: 1rem;
+        padding-top: 4rem;
+    }
+    .bold{
+        font-size: 0.9rem;
+    }
+    .text{
+        font-size: 0.6rem;
+    }
+}
