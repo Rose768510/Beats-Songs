@@ -1,6 +1,6 @@
 const navbar = document.querySelector('#navbar');
 
-<div class="container">
+            `<div class="container">
                 <img src="https://cdn.freecodecamp.org/curriculum/js-music-player/quincy-larson-album-art.jpg" alt="song cover photo">
                 <div class="text">
                     <p class="bold"></p>
@@ -11,4 +11,4 @@ const navbar = document.querySelector('#navbar');
                         </svg>
                     </button>
                 </div>
-            </div>
+            </div>`
